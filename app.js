@@ -21,7 +21,7 @@ let txt="";
 
         keyPressCounter = 0;
 
-        if (txt.length > 35) {
+        if (txt.length > 32) {
             txt = txt.slice(1)
         } 
 
