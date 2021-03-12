@@ -17,7 +17,7 @@ let txt="";
         }
     }, 1000);
 
-    $("body").on("keypress", function(evt) {
+    $("body").on("keypress", (evt) => {
 
         keyPressCounter = 0;
 
